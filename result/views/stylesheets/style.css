@@ -24,12 +24,12 @@ body{
   transform: translateY(-50%);
 }
 
-#background-stats-1{
-  background-color: #2196f3;
+#background-stats-1 {
+  background-color: #FF9933; /* Saffron for BJP */
 }
 
-#background-stats-2{
-  background-color: #00cbca;
+#background-stats-2 {
+  background-color: #008000; /* Green for Congress */
 }
 
 #content-container{
@@ -64,7 +64,7 @@ body{
   vertical-align:middle;
   font-size:40px;
   font-weight: 600;
-  width: 450px;
+  width: 600px;
   height: 200px;
 }
 #choice a{
@@ -88,12 +88,12 @@ body{
   text-transform: uppercase;
 }
 
-#choice .choice.dogs{
+#choice .choice.congress{
   color: #00cbca;
   float: right;
 }
 
-#choice .choice.cats{
+#choice .choice.bjp{
   color: #2196f3;
   float: left;
 }

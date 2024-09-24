@@ -27,12 +27,14 @@ button i{
   margin-top: 3px;
 }
 
-button.a{
-  background-color: #1aaaf8;
+/* BJP button */
+button.a {
+  background-color: #FF9933; /* Saffron color for BJP */
 }
 
-button.b{
-  background-color: #00cbca;
+/* Congress button */
+button.b {
+  background-color: #008000; /* Green color for Congress */
 }
 
 #tip{
@@ -98,20 +100,20 @@ button.b{
   padding-left: 50px;
 }
 
-#choice button.a:hover{
-  background-color: #1488c6;
+#choice button.a:hover {
+  background-color: #e68527; /* Darker saffron on hover */
 }
 
-#choice button.b:hover{
-  background-color: #00a2a1;
+#choice button.b:hover {
+  background-color: #006b00; /* Darker green on hover */
 }
 
-#choice button.a:focus{
-  background-color: #1488c6;
+#choice button.a:focus {
+  background-color: #e68527;
 }
 
-#choice button.b:focus{
-  background-color: #00a2a1;
+#choice button.b:focus {
+  background-color: #006b00;
 }
 
 #background-stats{
@@ -126,4 +128,15 @@ button.b{
   margin-bottom:-4px;
   width:50%;
   height:100%;
+}
+/* Hover and focus states for BJP */
+button.a:hover,
+button.a:focus {
+  background-color: #E68A00; /* Darker saffron for hover/focus */
+}
+
+/* Hover and focus states for Congress */
+button.b:hover,
+button.b:focus {
+  background-color: #006600; /* Darker green for hover/focus */
 }
